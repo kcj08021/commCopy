@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{7fd4c46f-63a5-440d-b34a-63b2096588f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{c0f9588e-270e-4c61-bc5a-b8022d00bddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{ad3d1939-4c49-429e-b0f7-365427c86f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{2a73e355-1fb7-4bdd-b21f-0f0f5061aa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.CollisionManager">
+      <UniqueIdentifier>{8a0b8c41-cf56-4103-b7c9-dd6d6fe85748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.KeyManager">
+      <UniqueIdentifier>{df69990d-14f9-4568-a7b2-cc2980b75a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.BitmapManager">
+      <UniqueIdentifier>{e4b290e0-60e5-40f0-b022-0ce3a1dba07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.BitmapManager\00.Bitmap">
+      <UniqueIdentifier>{6ed03b27-0915-4ca7-862c-73ba14fdf9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{a9d1d293-ef2a-4c2b-86f0-b3c66df5d1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header\00.Define">
+      <UniqueIdentifier>{b45f8047-d5f5-4c3e-a2d8-f128c2c2de86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjectManager">
+      <UniqueIdentifier>{658c053c-f28a-4128-8721-deda820a8eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager">
+      <UniqueIdentifier>{07b2eefc-8893-4173-a684-f7fb42dd1c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.ScrollManager">
+      <UniqueIdentifier>{e7f85990-c07e-4063-909d-be952cde978b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.EffectManager">
+      <UniqueIdentifier>{4f0fba18-37c6-48c2-ad1d-29ede8958322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager\00.Scene">
+      <UniqueIdentifier>{550f1118-f6e8-4594-84d8-e461f8aceddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\08.MouseManager">
+      <UniqueIdentifier>{75083350-523f-4b2f-b880-e4bf5fd4872c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.AlliedUnit">
+      <UniqueIdentifier>{38b08f38-e6d2-48f2-9da6-5d2988972bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.AlliedUnit\00.GreeBrets">
+      <UniqueIdentifier>{3609be61-6a15-4681-a33b-b9b7ae23c84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.AlliedUnit\01.Marine">
+      <UniqueIdentifier>{bf03df7d-ffe1-40d0-9a4f-f95ee48b1321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.AlliedUnit\02.Driver">
+      <UniqueIdentifier>{fef24fd0-aebb-47e5-900c-b8ad5e9ec0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\98.Map">
+      <UniqueIdentifier>{697ba4d6-efdd-49a0-82ea-9a6e508ef54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.UI">
+      <UniqueIdentifier>{bfcecf1f-7a86-42bf-9969-b02a317ff1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.UI\00.UIBackground">
+      <UniqueIdentifier>{abc1007f-110a-4718-984d-e2d9b164cc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Enemy">
+      <UniqueIdentifier>{b42e4816-dba7-4acc-a2a9-fd3b3fadf5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject">
+      <UniqueIdentifier>{e17f4d17-cc6a-4460-89e2-a1b3c1992a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.TileManager">
+      <UniqueIdentifier>{d379e1b0-cc6d-40a1-9f2d-e1f3489d0806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\06.UnitManager">
+      <UniqueIdentifier>{b671ecd4-4c12-4db3-bde4-8e84da345f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\00.Barrel">
+      <UniqueIdentifier>{543dc631-f7e9-4444-935c-f794af6d1a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\10.UIManager">
+      <UniqueIdentifier>{2758b3a4-0e1e-4e00-a487-57887e77ad1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\02.Tree">
+      <UniqueIdentifier>{5cb17b7c-9ee4-4653-9c94-4c3e5578c2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\03.Wall">
+      <UniqueIdentifier>{e8f2d345-5266-4c08-9aec-d6a3bf2fce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\04.Rubber Boat">
+      <UniqueIdentifier>{29804eb2-c3a7-40b6-b86c-ee173de3977a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\11.SoundManager">
+      <UniqueIdentifier>{0b229b8c-2f97-4bbc-b5b4-2c70d20d6dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\05.Pole">
+      <UniqueIdentifier>{1ae35c12-c425-488a-a0ba-bb2f4cbb69c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\01.Building">
+      <UniqueIdentifier>{d2be2133-c14c-4fd4-bab2-1a091c2c129e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.MapObject\06.RadioTower">
+      <UniqueIdentifier>{5d653f11-dd7d-4295-ad22-88b6d172d596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.EffectManager\00.Effect">
+      <UniqueIdentifier>{3c8e4fe3-ba6f-433b-9e71-ebca0cf84869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager\00.Scene\00.TitleScene">
+      <UniqueIdentifier>{e11d2f4e-ec50-4ad7-b1f5-4824e6e6d6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager\00.Scene\01.MenuScene">
+      <UniqueIdentifier>{63dd0c94-5b5f-4b35-8999-e836d25af3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager\00.Scene\02.Mission01">
+      <UniqueIdentifier>{8f667fc2-994a-48e5-b5be-fc5b00f6f4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SceanManager\00.Scene\03.ClearScene">
+      <UniqueIdentifier>{b314c93c-5eca-4fba-b6f9-5989ba055e28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CommCopy.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>97.Manager\02.KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>97.Manager\03.BitmapManager\00.Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapManager.h">
+      <Filter>97.Manager\03.BitmapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonDefine.h">
+      <Filter>98.Header\00.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagDefine.h">
+      <Filter>98.Header\00.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>97.Manager\00.ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>97.Manager\01.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>97.Manager\04.SceanManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>97.Manager\04.SceanManager\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>97.Manager\07.EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>97.Manager\05.ScrollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission01.h">
+      <Filter>97.Manager\04.SceanManager\00.Scene\02.Mission01</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenBerets.h">
+      <Filter>01.GameObject\00.AlliedUnit\00.GreeBrets</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>97.Manager\08.MouseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AlliedUnit.h">
+      <Filter>01.GameObject\00.AlliedUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>98.Header\00.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Marine.h">
+      <Filter>01.GameObject\00.AlliedUnit\01.Marine</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>01.GameObject\98.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBackground.h">
+      <Filter>01.GameObject\99.UI\00.UIBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>97.Manager\09.TileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>97.Manager\06.UnitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>01.GameObject\00.AlliedUnit\02.Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>01.GameObject\02.MapObject\00.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>97.Manager\10.UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>97.Manager\11.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>01.GameObject\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>01.GameObject\02.MapObject\02.Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberBoat.h">
+      <Filter>01.GameObject\02.MapObject\04.Rubber Boat</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodeDefine.h">
+      <Filter>98.Header\00.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>01.GameObject\02.MapObject\03.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Pole.h">
+      <Filter>01.GameObject\02.MapObject\05.Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>01.GameObject\02.MapObject\01.Building</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioTower.h">
+      <Filter>01.GameObject\02.MapObject\06.RadioTower</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>97.Manager\07.EffectManager\00.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>97.Manager\04.SceanManager\00.Scene\00.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>97.Manager\04.SceanManager\00.Scene\03.ClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>97.Manager\04.SceanManager\00.Scene\01.MenuScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CommCopy.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>97.Manager\02.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>97.Manager\03.BitmapManager\00.Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapManager.cpp">
+      <Filter>97.Manager\03.BitmapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>97.Manager\00.ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>97.Manager\01.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>97.Manager\04.SceanManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>97.Manager\07.EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>97.Manager\05.ScrollManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission01.cpp">
+      <Filter>97.Manager\04.SceanManager\00.Scene\02.Mission01</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenBerets.cpp">
+      <Filter>01.GameObject\00.AlliedUnit\00.GreeBrets</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>97.Manager\08.MouseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AlliedUnit.cpp">
+      <Filter>01.GameObject\00.AlliedUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Marine.cpp">
+      <Filter>01.GameObject\00.AlliedUnit\01.Marine</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>01.GameObject\00.AlliedUnit\02.Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>01.GameObject\98.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBackground.cpp">
+      <Filter>01.GameObject\99.UI\00.UIBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>97.Manager\09.TileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>97.Manager\06.UnitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>01.GameObject\02.MapObject\00.Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>97.Manager\10.UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>97.Manager\11.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>01.GameObject\01.Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>01.GameObject\02.MapObject\02.Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberBoat.cpp">
+      <Filter>01.GameObject\02.MapObject\04.Rubber Boat</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>01.GameObject\02.MapObject\03.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Pole.cpp">
+      <Filter>01.GameObject\02.MapObject\05.Pole</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>01.GameObject\02.MapObject\01.Building</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioTower.cpp">
+      <Filter>01.GameObject\02.MapObject\06.RadioTower</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>97.Manager\07.EffectManager\00.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>97.Manager\04.SceanManager\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>97.Manager\04.SceanManager\00.Scene\00.TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>97.Manager\04.SceanManager\00.Scene\03.ClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>97.Manager\04.SceanManager\00.Scene\01.MenuScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CommCopy.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommCopy.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
